@@ -50,6 +50,14 @@ button:hover {
     color: #0C090A;
 }
 
+a {
+    color: #FFC30B;
+}
+
+a:hover {
+    color: aliceblue;
+}
+
 p {
     font-size: 10px;
 }
@@ -60,7 +68,7 @@ p {
     padding-top: 20px;
     padding-bottom: 20px;
     margin-bottom: 20px;
-    width: 40%;
+    width: 50%;
     border-radius: 20px;
 }
 
@@ -109,6 +117,11 @@ p {
     margin-right: 50px;
     width: 40%;
     border-style: none;
+}
+
+#AutobiographyText {
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 #Footer {
