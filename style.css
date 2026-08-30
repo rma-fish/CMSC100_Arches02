@@ -2,7 +2,7 @@
 
 body {
     font-family: Verdana;
-    color: aliceblue;
+    color: #EEF3EF;
 }
 
 h2, h4 {
@@ -21,8 +21,8 @@ div {
     align-items : center;
     margin-left: auto;
     margin-right: auto;
-    background-color: #1C2951;
-    border-color: #808580;
+    background-color: #415E53;
+    border-color:  #AAC4AD;
     border-style: solid;
     border-width: 2px;
 }
@@ -34,19 +34,19 @@ button {
     margin-bottom: 7px;
     border-radius: 10px;
     font-family: Verdana;
-    border-color: #FFC30B;
-    background-color: #0C090A;
-    color: #6693F5;
+    border-color: #6C9992;
+    background-color: #363636;
+    color: #AAC4AD;
 }
 
 button:hover {
-    border-color: #6693F5;
-    background-color: #FFC30B;
-    color: #0C090A;
+    border-color: #6C9992;
+    background-color: #AAC4AD;
+    color: #415E53;
 }
 
 a {
-    color: #FFC30B;
+    color: #6C9992;
 }
 
 a:hover {
@@ -75,6 +75,7 @@ p {
 .ProjectBox {
     display: inline-block;
     text-align: center;
+    background-color: #6C9992;
     padding: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -84,8 +85,10 @@ p {
 .AMBox {
     display: inline-block;
     justify-content: start;
+    background-color: #6C9992;
     margin-top: 20px;
     margin-bottom: 20px;
+    border-radius: 40px;
     width: 45%;
 }
 
