@@ -65,14 +65,16 @@ p {
 }
 
 .CBox {
-    padding: 100px;
-    margin-left: 200px;
-    margin-right: 200px;
+    width: 70%;
     border-radius: 40px;
 }
 
-.ProjectBox{
-    padding: 100px;
+.ProjectBox {
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     border-radius: 10px;
     color: aliceblue;
 }
@@ -111,22 +113,13 @@ p {
     height: 20%;
 }
 
-#FooterImageBox, #FooterContentBox {
-    margin: 0px;
-}
-
-#FooterImageBox {
-    padding: 0px;
-    width: 66%;
-    height: 100%;
-}
-
 #FooterContentBox {
     display: inline-block;
-    color: aliceblue;
     padding-left: 10px;
     padding-right: 10px;
+    margin: 0px;
     border-top: none;
     border-right: none;
     border-bottom: none;
+    color: aliceblue;
 }
