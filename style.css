@@ -24,6 +24,8 @@ div {
     display: flex;
     justify-content: center;
     align-items : center;
+    margin-left: auto;
+    margin-right: auto;
     background-color: #1C2951;
     border-color: #808580;
     border-style: solid;
@@ -48,14 +50,17 @@ button:hover {
     color: #0C090A;
 }
 
+p {
+    font-size: 10px;
+}
+
 /* Class Name Styles */
 
 .BTab {
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-left: 500px;
-    margin-right: 500px;
     margin-bottom: 20px;
+    width: 40%;
     border-radius: 20px;
 }
 
@@ -67,13 +72,28 @@ button:hover {
 }
 
 .ProjectBox{
-    margin: 20px;
     padding: 100px;
     border-radius: 10px;
     color: aliceblue;
 }
 
+.RemoveB {
+    /*border-style: none;*/
+    background-color: transparent;
+}
+
 /* ID Name Styles */
+
+#Navigator {
+    margin-left: auto;
+    margin-right: auto;
+    height: 10%;
+}
+
+#SelfPhoto {
+    border-style: solid;
+    border-radius: 20px;
+}
 
 #ProjectBox1, #ProjectBox2 {
     display: inline-block;
@@ -83,7 +103,30 @@ button:hover {
     border-style: none;
 }
 
-#AboutMe {
-    margin-left: 550px;
-    margin-right: 550px;
+#Footer {
+    justify-content: start;
+    padding: 0px;
+    margin: auto;
+    width: 50%;
+    height: 20%;
+}
+
+#FooterImageBox, #FooterContentBox {
+    margin: 0px;
+}
+
+#FooterImageBox {
+    padding: 0px;
+    width: 66%;
+    height: 100%;
+}
+
+#FooterContentBox {
+    display: inline-block;
+    color: aliceblue;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
 }
