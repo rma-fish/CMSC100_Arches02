@@ -4,31 +4,36 @@
         <title>GitHub HTML Page</title>
     </head>
     <link rel = "stylesheet" type = "text/css" href = "style.css">
-    <div class = "Navigator">
-        <button id = "Default">Main Menu</button>
-        <button id = "Showcase">Previous Projects</button>
-        <button id = "Skillset">About Me</button>
-        <button id = "What?">Decipher</button>
+    <div class = "BTab" id = "Navigator">
+        <a href = "Arches02.html">
+            <button id = "Default">Main Menu</button></a>
+        <a href = "Arches02.html#Projects">
+            <button id = "Showcase">Previous Projects</button> </a>
+        <a href = "Arches02.html#AboutMe">
+            <button id = "Skillset">About Me</button></a>
     </div>
-    <body style = "background-color : #0077B6;">
+    <body style = "background-color : #000000;">
         <img src = "images/SomePhoto.png" alt = "Picture :3">
     <h2>Previous Projects </h2>
-    <div class = "GroupProjectButtons">
+    <div class = "BTab" id = "Projects">
         <button id = "Project1">Project 1</button>
         <button id = "Project2">Project 2</button>
         <button id = "Project3">Project 3</button>
         <button id = "Project4">Project 4</button>
     </div>
-    <div class = "ProjectList">
+    <div class = "CBox" id = "ProjectList">
         <div class = "ProjectBox"><p>P</p></div>
         <div class = "ProjectBox"><p>R</p></div>
         <div class = "ProjectBox"><p>O</p></div>
         <div class = "ProjectBox"><p>J</p></div>
     </div>
     <h2>About Me</h2>
-    <div class = "SummarySwitch">
+    <div class = "BTab" id = "AboutMe">
         <button id = "Autobiography">Autobiography</button>
         <button id = "Skills">Skills</button>
+    </div>
+    <div class = "CBox">
+        <p></p>
     </div>
     </body>
 </html>

@@ -1,7 +1,12 @@
 /* Global Variable Styles */
 
+body {
+    font-family: Verdana;
+}
+
 h2 {
     text-align: center;
+    color: white;
 }
 
 img {
@@ -21,7 +26,7 @@ div {
 }
 
 button {
-    font-family: "Roboto";
+    font-family: Verdana;
     background-color: #0C090A;
     color: #FFC30B;
     border-radius: 10px;
@@ -33,13 +38,21 @@ button {
 
 /* Class Name Styles */
 
-.Navigator {
+.BTab {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 400px;
+    margin-right: 400px;
     margin-bottom: 20px;
+    border-radius: 20px;
 }
 
-/*.GroupProject {
-    background:
-}*/
+.CBox{
+    padding: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 40px;
+}
 
 .ProjectBox{
     margin: 20px;
@@ -48,3 +61,4 @@ button {
 }
 
 /* ID Name Styles */
+
