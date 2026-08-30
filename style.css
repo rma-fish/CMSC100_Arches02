@@ -4,6 +4,11 @@ body {
     font-family: Verdana;
 }
 
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 h2 {
     text-align: center;
     color: white;
@@ -19,21 +24,28 @@ div {
     display: flex;
     justify-content: center;
     align-items : center;
-    background-color: #121212;
-    border-color: #FFC30B;
+    background-color: #1C2951;
+    border-color: #808580;
     border-style: solid;
     border-width: 2px;
 }
 
 button {
-    font-family: Verdana;
-    background-color: #0C090A;
-    color: #FFC30B;
-    border-radius: 10px;
     margin-left: 25px;
     margin-right: 25px;
     margin-top: 7px;
     margin-bottom: 7px;
+    border-radius: 10px;
+    font-family: Verdana;
+    border-color: #FFC30B;
+    background-color: #0C090A;
+    color: #6693F5;
+}
+
+button:hover {
+    border-color: #6693F5;
+    background-color: #FFC30B;
+    color: #0C090A;
 }
 
 /* Class Name Styles */
@@ -41,13 +53,13 @@ button {
 .BTab {
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-left: 400px;
-    margin-right: 400px;
+    margin-left: 500px;
+    margin-right: 500px;
     margin-bottom: 20px;
     border-radius: 20px;
 }
 
-.CBox{
+.CBox {
     padding: 100px;
     margin-left: 200px;
     margin-right: 200px;
@@ -57,8 +69,21 @@ button {
 .ProjectBox{
     margin: 20px;
     padding: 100px;
-
+    border-radius: 10px;
+    color: aliceblue;
 }
 
 /* ID Name Styles */
 
+#ProjectBox1, #ProjectBox2 {
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 40%;
+    border-style: none;
+}
+
+#AboutMe {
+    margin-left: 550px;
+    margin-right: 550px;
+}
